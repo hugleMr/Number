@@ -12,6 +12,7 @@ cc.Class({
     },
 
     init(text){
+        console.log(text);
         this.number = text;
         this.lbl_item.string = String(text);
     },
